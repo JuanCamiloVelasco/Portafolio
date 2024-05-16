@@ -8,7 +8,7 @@
     "ng": "ng",
     "start": "ng serve",
     "correr":"cd dist/portafolio/browser/index.html && ng serve",
-    "build": "npm install --force && ng build --configuration production",
+    "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:portafolio": "node dist/portafolio/server/server.mjs"
