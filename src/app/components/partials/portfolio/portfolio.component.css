@@ -1,0 +1,66 @@
+.portfolio{
+    background-color: #252A2E;
+    color: #fff;
+    padding: 50px 20px;
+}
+.portfolio .fila {
+    display: grid;
+    grid-template-columns: 340px 340px 340px;
+    grid-gap: 20px;
+    justify-content: center;
+}
+.portfolio .fila .item{
+    background-color: #161b22;
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+}
+.portfolio .fila .item img{
+    display: block;
+    margin: auto;
+    border-radius: 30px;
+    width: 300px;
+    height: 200px;
+}
+.portfolio .fila .item p {
+    color: #fff;
+    margin: 20px 0;
+}
+
+.portfolio h2{
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+}
+.tecnologias{
+    color: #22deb8;
+    font-weight: bold;
+}
+.info{
+    text-align: center;
+}
+.btn{
+    background-color: transparent;
+    padding: 15px;
+    border: 1px solid #2acf7f;
+    color: #2acf7f;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s;
+    margin-right: .4rem;
+}
+.btn2{
+    background-color: #2acf7f;
+    color: #161b22;
+    cursor: pointer;
+}
+.btn:hover{
+    box-shadow: 0 0 20px #91e0ba;
+}
+@media screen and (max-width:700px){
+    .portfolio .fila{
+        grid-template-columns: auto;
+    }
+}
