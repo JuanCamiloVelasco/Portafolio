@@ -7,6 +7,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "correr":"cd dist/portafolio/browser/index.html && ng serve",
     "build": "npm install --force && ng build --configuration production",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
